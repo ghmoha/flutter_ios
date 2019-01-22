@@ -15,7 +15,7 @@ cache:
   directories:
   - "$HOME/.pub-cache"
 before_deploy:
-- pushd build/ios/iphoneos
+- pushd built/ios
 - mkdir Payload
 - cd Payload
 - ln -s ../Runner.app
